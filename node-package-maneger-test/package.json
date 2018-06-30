@@ -1,0 +1,22 @@
+{
+  "name": "test-demo",
+  "version": "1.0.0",
+  "description": "My first npm practise session",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "manash"
+  ],
+  "author": "Manash Kumar Mondal",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
