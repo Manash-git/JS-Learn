@@ -27,16 +27,25 @@ book.print();
 
 /**
  * we can call and object element by using two ways
- *
  */
 
-
-
-
-
-
-
-
-
-
+ console.log('\n\nBook Name=> ',book.name);
+ console.log('\n\nBook Author=> ',book['author']);
  
+
+/**
+ * we can add new element in existing object
+ */
+
+ console.log('');
+ 
+
+
+
+
+
+
+
+
+
+
