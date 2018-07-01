@@ -37,10 +37,35 @@ book.print();
  * we can add new element in existing object
  */
 
- console.log('');
+ console.log('Publisher Year=> ',book.publishYear);
+ book.publishYear=2018;
+ book['price']= 150.50;
+
+ console.log('Publisher Year=> ',book.publishYear);
+ console.log(book); /// publisherYear is added in book object
+
  
+ /**
+  * printing all the element using for in loop 
+  */
+for(var i in book){
+    console.log(i);         // print the element name
+}
 
-
+/**
+ * print the whole object using for in loop 
+ */
+for(var i in book){
+    if (i=='print') {
+        console.log('Print Function ::: \n********************');
+        book.print();
+        
+       
+    } else {
+        console.log(i+' => '+book[i]);
+    }
+    
+}
 
 
 
