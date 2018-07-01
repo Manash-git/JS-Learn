@@ -24,6 +24,10 @@
 function Data(name,email) {
     this.name=name;
     this.email=email;
+
+    this.print= function () {
+        console.log('Name=> '+ this.name);
+    }
 }
 
 var d1=new Data("Manash Kumar","emailatmanash@gmail.com");
@@ -50,10 +54,18 @@ var dataArray=[d1,d2,d3,d4];
 
 dataArray.forEach(function (value) {
     console.log('Email=> '+value.email);
+    value.print();
+    console.log('\n');
 });
 
+console.log('\n************************\n');
+// for in loop for traversing
 
-
+for(var i in dataArray){
+    console.log('Email=> '+dataArray[i].email);
+    dataArray[i].print();
+    console.log('\n');
+}
 
 
 
