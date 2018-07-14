@@ -27,7 +27,7 @@ function Data(name,email) {
 
     this.print= function () {
         console.log('Name=> '+ this.name);
-    }
+    };
 }
 
 var d1=new Data("Manash Kumar","emailatmanash@gmail.com");
