@@ -5,14 +5,15 @@
  // basic class
 
  function Person() {
-     console.log('I am class');
+    console.log('I am class');
  }
 
  var p1=new Person();       // object of class Person
  var p2= Person();
- // 
+
  console.log(typeof p1);        // it is object
  console.log(typeof p2);        // it is undefined
+
 
 
 /**
