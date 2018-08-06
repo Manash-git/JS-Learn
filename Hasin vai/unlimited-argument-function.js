@@ -31,3 +31,10 @@ console.log(students.length);   // 5+3 = 8
 
 addStudents(students,"Manash","MKBHD","Naveen","Shifat Ullah");
 console.log(students.length);   // 5+3+4 = 12
+
+function addStudents(data,...people) {
+    for(var i=0; i<people.length; i++){
+        data.push(people[i]);
+
+    }
+}
